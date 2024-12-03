@@ -9,3 +9,4 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 
 * Day 1: Historian Hysteria
 * Day 2: Red-Nosed Reports
+* Day 3: Mull It Over
