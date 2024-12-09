@@ -15,3 +15,4 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 6: **Guard Gallivant** (Solved, but not uploaded yet)
 * Day 7: Bridge Repair
 * Day 8: Resonant Collinearity
+* Day 9: Disk Fragmenter
