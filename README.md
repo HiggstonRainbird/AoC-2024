@@ -16,3 +16,5 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 7: Bridge Repair
 * Day 8: Resonant Collinearity
 * Day 9: Disk Fragmenter
+* Day 10: Hoof It
+* Day 11: **Plutonian Pebbles** (Contains an `O(log(N))` solution and examples up to 10^100)
