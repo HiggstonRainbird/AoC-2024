@@ -1,11 +1,11 @@
 (* ::Package:: *)
 
 (* ::Text:: *)
-(*Written December 1th, 2024.*)
+(*Written December 11th, 2024.*)
 
 (*Import*)
 
-day = 10;
+day = 11;
 inputPath = 
   FileNameJoin[{NotebookDirectory[], 
     "Day" <> ToString[day] <> "Input.txt"}];
