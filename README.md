@@ -20,3 +20,4 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 11: **Plutonian Pebbles** (Contains an `O(log(N))` solution and examples up to 10^100)
 * Day 12: **Garden Groups** (Solved, but not uploaded yet)
 * Day 13: Claw Contraption
+* Day 14: Restroom Redoubt
