@@ -22,3 +22,4 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 13: Claw Contraption
 * Day 14: Restroom Redoubt
 * Day 15: Warehouse Woes
+* Day 16: Reindeer Maze
