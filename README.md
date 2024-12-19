@@ -25,3 +25,4 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 16: Reindeer Maze
 * Day 17: Chronospatial Computer
 * Day 18: RAM Run
+* Day 19: Linen Layout
