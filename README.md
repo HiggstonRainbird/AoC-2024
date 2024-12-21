@@ -26,3 +26,5 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 17: Chronospatial Computer
 * Day 18: RAM Run
 * Day 19: Linen Layout
+* Day 20: **Race Condition** (Solved, but not uploaded yet)
+* Day 21: **Keypad Conundrum** (Genuinely elegant solution using `Graph[]`)
