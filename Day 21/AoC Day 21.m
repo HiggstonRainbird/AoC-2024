@@ -92,7 +92,6 @@ Round[
   FromDigits[Select[code, IntegerQ]]*
    Total[
     GraphDistance[pad, {#[[1]], "A"}, {#[[2]], "A"}] + 1 & /@
-     
      Partition[Join[{"A"}, code], 2, 1]],
   {code, input}]]
 
@@ -104,6 +103,5 @@ Round[
   FromDigits[Select[code, IntegerQ]]*
    Total[
     GraphDistance[pad, {#[[1]], "A"}, {#[[2]], "A"}] + 1 & /@
-     
      Partition[Join[{"A"}, code], 2, 1]],
   {code, input}]]
