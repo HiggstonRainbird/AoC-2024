@@ -61,8 +61,8 @@ getWeights[sourceGraph_, edge_, key_] :=
    GraphDistance[sourceGraph, {edge[[1, 2]], "A"}, key] + 
     GraphDistance[sourceGraph, key, {edge[[2, 2]], "A"}] + 1
    ];
+   
 nextKeypad[sourceGraph_, depth_Integer, edges_List] :=
-  
   Module[{weights},
    weights =
     Table[
@@ -74,6 +74,7 @@ nextKeypad[sourceGraph_, depth_Integer, edges_List] :=
          ] & /@ edges[[dir]],
      {dir, 4}];
    Graph[Flatten[edges], EdgeWeight -> Flatten[weights]]];
+   
 finalKeypad[depth_Integer] :=
   Module[{keypad},
    keypad = 
