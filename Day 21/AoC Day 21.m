@@ -74,6 +74,7 @@ nextKeypad[sourceGraph_, depth_Integer, edges_List] :=
          ] & /@ edges[[dir]],
      {dir, 4}];
    Graph[Flatten[edges], EdgeWeight -> Flatten[weights]]];
+   
 finalKeypad[depth_Integer] :=
   Module[{keypad},
    keypad = 
@@ -91,7 +92,6 @@ Round[
   FromDigits[Select[code, IntegerQ]]*
    Total[
     GraphDistance[pad, {#[[1]], "A"}, {#[[2]], "A"}] + 1 & /@
-     
      Partition[Join[{"A"}, code], 2, 1]],
   {code, input}]]
 
@@ -103,6 +103,5 @@ Round[
   FromDigits[Select[code, IntegerQ]]*
    Total[
     GraphDistance[pad, {#[[1]], "A"}, {#[[2]], "A"}] + 1 & /@
-     
      Partition[Join[{"A"}, code], 2, 1]],
   {code, input}]]
