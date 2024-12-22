@@ -61,8 +61,8 @@ getWeights[sourceGraph_, edge_, key_] :=
    GraphDistance[sourceGraph, {edge[[1, 2]], "A"}, key] + 
     GraphDistance[sourceGraph, key, {edge[[2, 2]], "A"}] + 1
    ];
+
 nextKeypad[sourceGraph_, depth_Integer, edges_List] :=
-  
   Module[{weights},
    weights =
     Table[

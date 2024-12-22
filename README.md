@@ -27,4 +27,5 @@ There's also a utilities file, `Ulitities.nb`, with some functions that proved u
 * Day 18: RAM Run
 * Day 19: Linen Layout
 * Day 20: **Race Condition** (Solved, but not uploaded yet)
-* Day 21: **Keypad Conundrum** (Genuinely elegant solution using `Graph[]`)
+* Day 21: **Keypad Conundrum** (Genuinely elegant solution using `Graph[]`, and also a digression into the TAS for Dr. Sudoku)
+* Day 22: **Monkey Market** (First time where using `Compile[]` was worth the extra setup time)
